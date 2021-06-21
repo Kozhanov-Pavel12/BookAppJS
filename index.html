@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+
+  <div class="container">
+    <form action="" method="GET" name="my-form" class="book-form">
+      <h2>JS Book App</h2>
+
+      <div class="group-item">
+        <input type="text" name="bookTitleInput" id="book-title" autocomplete="off" required placeholder="Book title">
+      </div>
+
+      <div class="group-item">
+        <input type="text" name="bookAuthorInput" id="book-author" autocomplete="off" required placeholder="Author">
+      </div>
+
+      <div class="group-item">
+        <input type="number" name="bookYear" id="book-year" autocomplete="off" placeholder="Year">
+      </div>
+
+      <div class="group-item">
+        <input type="number" name="bookRating" id="book-rating" autocomplete="off" placeholder="Rating">
+      </div>
+
+      <div class="group-item">
+        <input type="text" name="ISBN" id="book-isbn" autocomplete="off" placeholder="ISBN">
+      </div>
+
+      <button type="submit" class="btn">Add Book</button>
+    </form>
+
+    <div class="sorting-section">
+      <button class="rating-btn sorted-button">Sort by Rating</button>
+      <button class="author-btn sorted-button">Sort by Author</button>
+      <button class="year-btn sorted-button">Sort by Year and Alphabet</button>
+    </div>
+
+    <div class="best-book-section">
+      <span class="group">Recommended book</span>
+      <ul class="best-book-item">
+
+      </ul>
+    </div>
+
+  
+      <div class="book-list-section">
+        <span class="group">All Books</span>
+        <ul class="list-group">
+  
+        </ul>
+      </div>
+
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
